@@ -2,6 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const members = require("./routes/members")
+const products = require("./routes/products")
 
 const database_url =
   "mongodb+srv://stajohn697:USER@cluster01.jyubbqk.mongodb.net/?retryWrites=true&w=majority";
@@ -17,6 +18,7 @@ database.once("open", () => {
 const app = express();
 app.use(bodyParser.json());
 app.use("/api/members" , members)
+app.use("/api/products" , products)
 const PORT = 3000;
 
 app.listen(PORT, () => {

@@ -16,3 +16,17 @@ Content-Type: application/json
     "password": "1234"
 
 }
+
+###
+
+POST http://localhost:3000/api/products/add_product
+Content-Type: application/json
+
+{
+    
+    "name": "Nike Air Jordan",
+    "size": 25,
+    "price": 2500,
+    "description": "Nice Shoe"
+
+}

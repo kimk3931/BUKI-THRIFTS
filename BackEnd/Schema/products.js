@@ -4,8 +4,8 @@ const { Schema } = mongoose;
 const productSchema = new Schema(
   {
     product_id: {
-      required: true,
       type: Schema.Types.ObjectId,
+      default: () => new mongoose.Types.ObjectId(),
     },
     name: {
       type: String,
@@ -26,4 +26,4 @@ const productSchema = new Schema(
   { timestamps: true }
 );
 
-module.exports = mongoose.model('Products' , productSchema)
+module.exports = mongoose.model("Products", productSchema);
