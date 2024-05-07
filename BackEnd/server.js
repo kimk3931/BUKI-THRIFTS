@@ -15,7 +15,7 @@ database.once("open", () => {
 });
 
 const app = express();
-// app.use(bodyParser.json());
+app.use(bodyParser.json());
 app.use("/api/members" , members)
 const PORT = 3000;
 

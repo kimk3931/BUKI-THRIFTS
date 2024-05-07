@@ -1,1 +1,18 @@
-GET http://localhost:3000/api/members/about
+POST  http://localhost:3000/api/members/signup
+Content-Type: application/json
+
+{
+    "email": "stano@gmail.com",
+    "password": "1234"
+}
+
+###
+
+POST http://localhost:3000/api/members/login
+Content-Type: application/json
+
+{
+    "email": "stano@gmail.com",
+    "password": "1234"
+
+}
