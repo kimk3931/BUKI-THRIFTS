@@ -2,8 +2,9 @@ POST  http://localhost:3000/api/members/signup
 Content-Type: application/json
 
 {
-    "email": "stano@gmail.com",
-    "password": "1234"
+    "email": "starnohJ@gmail.com",
+    "password": "1234",
+    "member_type" : "customer"
 }
 
 ###
@@ -12,7 +13,7 @@ POST http://localhost:3000/api/members/login
 Content-Type: application/json
 
 {
-    "email": "stano@gmail.com",
+    "email": "starnohJ@gmail.com",
     "password": "1234"
 
 }
@@ -33,6 +34,12 @@ Content-Type: application/json
 
 ###
 GET http://localhost:3000/api/products/get_products
+
+
+###
+
+###
+GET http://localhost:3000/api/members/get_members
 
 
 ###
