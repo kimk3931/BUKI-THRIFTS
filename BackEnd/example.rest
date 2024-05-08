@@ -30,3 +30,16 @@ Content-Type: application/json
     "description": "Nice Shoe"
 
 }
+
+###
+GET http://localhost:3000/api/products/get_products
+
+
+###
+
+POST http://localhost:3000/api/products/delete_product
+Content-Type: application/json
+
+{
+    "product_id":"663a59f08013c03bc3aa2428"
+}
