@@ -1,7 +1,6 @@
 import React from 'react'
 import 
-{BsCart3, BsGrid1X2Fill, BsFillArchiveFill, BsReceipt, BsPeopleFill, 
-  BsListCheck, BsMenuButtonWideFill, BsFillGearFill}
+{BsCart3, BsGrid1X2Fill, BsFillArchiveFill, BsReceipt, BsPeopleFill, BsMenuButtonWideFill, BsFillGearFill}
  from 'react-icons/bs'
 
 function Sidebar({openSidebarToggle, OpenSidebar}) {
