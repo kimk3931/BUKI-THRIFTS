@@ -1,6 +1,6 @@
 import React from 'react'
 import 
-{ BsFillArchiveFill,  BsPeopleFill, BsCash, BsReceipt}
+{ BsFillArchiveFill, BsFillGrid3X3GapFill, BsPeopleFill, BsCash, BsReceipt}
  from 'react-icons/bs'
  
 
